@@ -9,6 +9,12 @@ module.exports = {isPositief}
 
 function isPositief(getal) {
   var teruggeefWaarde = undefined;
+        if (getal === 0) {
+          teruggeefWaarde = true
+        }
+          else {
+            teruggeefWaarde = false
+          }
 
   // vul hier aan:
   
